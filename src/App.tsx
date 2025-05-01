@@ -211,9 +211,9 @@ function App() {
                 {/* Card 1 */}
                 <div className="h-96 w-full sm:w-[48%] md:w-[30%] flip-card">
                   <div className="flip-card-inner">
-                    <div className="flip-card-front flex flex-col justify-center items-center p-4 bg-white rounded shadow">
+                    <div className="flip-card-front flex flex-col justify-center items-center p-4  rounded shadow">
                       <span
-                        className="p-4 rounded-full text-white"
+                        className="p-4 rounded-full "
                         style={{
                           background:
                             "linear-gradient(to right,rgb(253, 160, 0), rgb(231, 86, 14))",
@@ -224,7 +224,7 @@ function App() {
                       <h5 className="mt-3 font-bold text-gray-800">Posters</h5>
                       <h6 className="mt-2 text-gray-700">23767 +</h6>
                     </div>
-                    <div className="flip-card-back flex flex-col justify-center items-center p-4 bg-orange-700 text-white rounded shadow">
+                    <div className="flip-card-back flex flex-col justify-center items-center p-4 bg-orange-700  rounded shadow">
                       <h6 className="font-bold">Types of Posters:</h6>
                       <p className="text-sm text-center">
                         1. Awareness Posters at Ration Shops
