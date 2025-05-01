@@ -380,6 +380,48 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* Challenge Sections */}
+      <section className="w-full flex items-center justify-center gap-6 px-6 py-12 bg-linear-to-br from-[#dff6f9] to-[#7fdbe7] ">
+        <div className="challenge-card shadow-xl hover:-translate-y-3 transition duration-300">
+          <h2 className="text-[26px] font-bold text-[#014f4f] mb-4">
+            INDIA’S BURDEN
+          </h2>
+          <p className="text-sm text-gray-800 leading-7">
+            Within India, the challenge is more profound in states like Uttar
+            Pradesh, Andhra Pradesh, Bihar, Tamil Nadu, West Bengal, and
+            Maharashtra—the epicenters of snakebite fatalities.
+            <br />
+            The impact extends beyond health, causing long-term socio-economic
+            hardship, with victims facing paralysis, kidney failure, and
+            financial strain.
+          </p>
+        </div>
+        <div className="challenge-card shadow-xl hover:-translate-y-3 transition duration-300">
+          <h2 className="text-[26px] font-bold text-[#014f4f] mb-4">
+            PROJECT OVERVIEW
+          </h2>
+          <p className="text-sm text-gray-800 leading-7">
+            Snakebite envenomation is declared a State Disaster in UP, where
+            agricultural belts and dense forests heighten human–snake
+            encounters. Our Mitigation Project drives prevention, rapid
+            treatment, and community training—supported by ₹4 lakh relief and
+            improved antivenom access.
+          </p>
+        </div>
+        <div className="challenge-card shadow-xl hover:-translate-y-3 transition duration-300">
+          <h2 className="text-[26px] font-bold text-[#014f4f] mb-4">
+            OBJECTIVES
+          </h2>
+          <ul className="list-disc text-sm text-gray-800 leading-7">
+            <li>
+              Empower communities on prevention, first aid, and transport.
+            </li>
+            <li>Train healthcare providers in snakebite management.</li>
+            <li>Implement India’s Standard Treatment Guidelines statewide.</li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }

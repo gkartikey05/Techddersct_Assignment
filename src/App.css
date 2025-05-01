@@ -1,12 +1,6 @@
 @import "tailwindcss";
 
-/* .main-logo {
-  width: 0;
-  height: 0;
-  border-bottom: 100px solid red;
-  border-right: 100px solid transparent;
-} */
-
+/* About Section */
 .crisis-card {
   position: relative;
   z-index: 0;
@@ -75,4 +69,14 @@
   background-color: #f97316; /* your orange */
   color: white;
   transform: rotateY(180deg);
+}
+
+/* Challenge Section */
+.challenge-card {
+  width: 33%;
+  height: 320px;
+  background-color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  padding: 2rem; 
 }
