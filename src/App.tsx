@@ -2,6 +2,12 @@ import { useState } from "react";
 
 import "./App.css";
 import { FaSearch } from "react-icons/fa";
+import { FaRocket } from "react-icons/fa";
+import { FaShieldAlt } from "react-icons/fa";
+import { FaHeadset } from "react-icons/fa";
+import { FaBullhorn } from "react-icons/fa6";
+import { FaVideo } from "react-icons/fa";
+import { FaKitMedical } from "react-icons/fa6";
 
 function App() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -16,7 +22,7 @@ function App() {
     stems from the wide diversity of venomous snakes, coupled with environmental and occupational exposure—particularly 
     in rural, agrarian settings where access to timely medical care is limited.`;
 
-  const previewText = fullText.slice(0, 360) + "...";
+  const previewText = fullText.slice(0, 250) + "...";
 
   return (
     <div className="">
@@ -163,14 +169,12 @@ function App() {
         id="snakebite-crisis-section"
         className="bg-[#f5f5dc] py-10 flex justify-center"
       >
-        <div className="container mx-auto px-4">
-          <div className="flex justify-center">
-            <h2 className="text-center text-[#1e3262] border-b-4 border-[#af1e2c] font-bold text-[26px] mb-10">
-              UTTAR PRADESH AT THE HEART OF INDIA
-            </h2>
-          </div>
+        <div className="container flex flex-col items-center mx-auto px-4">
+          <h2 className="text-center inline-block text-[#1e3262] border-b-4 border-[#af1e2c] font-bold text-[26px] mb-10">
+            UTTAR PRADESH AT THE HEART OF INDIA
+          </h2>
 
-          <div className="flex justify-center gap-5">
+          <div className="flex justify-center gap-0">
             {/* Left Side Content*/}
             <div className="w-[40%]">
               <div className="crisis-card">
@@ -420,6 +424,97 @@ function App() {
             <li>Train healthcare providers in snakebite management.</li>
             <li>Implement India’s Standard Treatment Guidelines statewide.</li>
           </ul>
+        </div>
+      </section>
+
+      {/* Overview Section */}
+      <section className="bg-[#f5f5dc] w-full py-10">
+        <div className="flex flex-col items-center">
+          <h2 className="text-center mx-auto inline-block text-[#1e3262] border-b-4 border-[#af1e2c] font-bold text-[26px] mb-2">
+            TRAINING INITIATIVE
+          </h2>
+          <p className="text-lg">
+            Empowering communities through training and awareness.
+          </p>
+        </div>
+
+        <div className="flex justify-center items-center gap-7 flex-wrap mt-10">
+          <div className="overview-cards relative">
+            <span className="absolute h-1.5 w-full top-0 left-0 bg-linear-to-r from-[#3f5ffb] to-[#fa466d]"></span>
+            <div>
+              <FaRocket className="text-[#0d6efd] text-5xl mb-2" />
+              <h3 className="font-bold text-lg text-gray-600 mb-5">State Level Training of Trainers (ToT)</h3>
+              <p className="text-gray-500 leading-7 text-lg font-medium">
+                2-day state-level ToT for nominated clinicians and
+                non-clinicians from various districts on first-aid and clinical
+                management of snakebite; these participants will be trained as
+                master-trainers.
+              </p>
+            </div>
+          </div>
+          <div className="overview-cards relative">
+            <span className="absolute h-1.5 w-full top-0 left-0 bg-linear-to-r from-[#6a52a5] to-[#e8adc7]"></span>
+            <div>
+              <FaShieldAlt className="text-[#198754] text-5xl mb-2" />
+              <h3 className="font-bold text-lg text-gray-600 mb-5">District-Level ToT</h3>
+              <p className="text-gray-500 leading-7 text-lg font-medium">
+                1-day training of emergency ward doctors by clinical
+                master-trainers on snakebite clinical management.
+              </p>
+            </div>
+          </div>
+          <div className="overview-cards relative">
+            <span className="absolute h-1.5 w-full top-0 left-0 bg-linear-to-r from-[#3f5ffa] to-[#fc456b]"></span>
+            <div>
+              <FaHeadset className="text-[#0dcaf0] text-5xl mb-2" />
+              <h3 className="font-bold text-lg text-gray-600 mb-5">Tehsil-Level ToT</h3>
+              <p className="text-gray-500 leading-7 text-lg font-medium">
+                CHOs: First-aid training by non-clinical master-trainers. ASHAs:
+                Snakebite first-aid modules by non-clinical master-trainers.
+                Local leaders & educators: Gram Pradhans, panchayat helpers,
+                Lekpals, primary teachers, EMTs—all trained on first-aid
+                protocols.
+              </p>
+            </div>
+          </div>
+          <div className="overview-cards relative">
+            <span className="absolute h-1.5 w-full top-0 left-0 bg-linear-to-r from-[#6550a2] to-[#e6adc7]"></span>
+            <div>
+              <FaBullhorn className="text-[#0d6efd] text-5xl mb-2" />
+              <h3 className="font-bold text-lg text-gray-600 mb-5">Awareness Generation</h3>
+              <u className="text-gray-500 leading-7 text-lg font-medium">
+                <li>Nukkad Natak (street plays) in each block.</li>
+                <li>IEC materials & posters in CHCs, DHs, medical colleges.</li>
+                <li>Posters at ration shops</li>
+                <li>
+                  Training booklets & modules for all community stakeholders.
+                </li>
+              </u>
+            </div>
+          </div>
+          <div className="overview-cards relative">
+            <span className="absolute h-1.5 w-full top-0 left-0 bg-linear-to-r from-[#109b8f] to-[#24c384]"></span>
+            <div>
+              <FaVideo className="text-black text-5xl mb-2" />
+              <h3 className="font-bold text-lg text-gray-600 mb-5">Digital Outreach</h3>
+              <p className="text-gray-500 leading-7 text-lg font-medium">
+                Dissemination of animated videos and e-comics on snakebite
+                awareness across community platforms.
+              </p>
+            </div>
+          </div>
+          <div className="overview-cards relative">
+            <span className="absolute h-1.5 w-full top-0 left-0 bg-linear-to-r from-[#654fa3] to-[#e8acc7]"></span>
+            <div>
+              <FaKitMedical className="text-[#0dcaf0] text-5xl mb-2" />
+              <h3 className="font-bold text-lg text-gray-600 mb-5">Snakebite Kits Provision</h3>
+              <p className="text-gray-500 leading-7 text-lg font-medium">
+                Distribute first-aid kits (gauze swabs, gloves, pressure
+                bandages, splint, management & CPR cards) to ASHAs and 2 kits
+                per sub-centre for rapid rural intervention.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
