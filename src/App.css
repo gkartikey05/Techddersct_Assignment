@@ -98,3 +98,12 @@
 .overview-cards:hover {
   box-shadow: 10px 7px 13px gray;
 }
+
+/* Objective Section */
+.objective-card {
+  width: 27%;
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #b9b9b9;
+}

@@ -443,7 +443,9 @@ function App() {
             <span className="absolute h-1.5 w-full top-0 left-0 bg-linear-to-r from-[#3f5ffb] to-[#fa466d]"></span>
             <div>
               <FaRocket className="text-[#0d6efd] text-5xl mb-2" />
-              <h3 className="font-bold text-lg text-gray-600 mb-5">State Level Training of Trainers (ToT)</h3>
+              <h3 className="font-bold text-lg text-gray-600 mb-5">
+                State Level Training of Trainers (ToT)
+              </h3>
               <p className="text-gray-500 leading-7 text-lg font-medium">
                 2-day state-level ToT for nominated clinicians and
                 non-clinicians from various districts on first-aid and clinical
@@ -456,7 +458,9 @@ function App() {
             <span className="absolute h-1.5 w-full top-0 left-0 bg-linear-to-r from-[#6a52a5] to-[#e8adc7]"></span>
             <div>
               <FaShieldAlt className="text-[#198754] text-5xl mb-2" />
-              <h3 className="font-bold text-lg text-gray-600 mb-5">District-Level ToT</h3>
+              <h3 className="font-bold text-lg text-gray-600 mb-5">
+                District-Level ToT
+              </h3>
               <p className="text-gray-500 leading-7 text-lg font-medium">
                 1-day training of emergency ward doctors by clinical
                 master-trainers on snakebite clinical management.
@@ -467,7 +471,9 @@ function App() {
             <span className="absolute h-1.5 w-full top-0 left-0 bg-linear-to-r from-[#3f5ffa] to-[#fc456b]"></span>
             <div>
               <FaHeadset className="text-[#0dcaf0] text-5xl mb-2" />
-              <h3 className="font-bold text-lg text-gray-600 mb-5">Tehsil-Level ToT</h3>
+              <h3 className="font-bold text-lg text-gray-600 mb-5">
+                Tehsil-Level ToT
+              </h3>
               <p className="text-gray-500 leading-7 text-lg font-medium">
                 CHOs: First-aid training by non-clinical master-trainers. ASHAs:
                 Snakebite first-aid modules by non-clinical master-trainers.
@@ -481,7 +487,9 @@ function App() {
             <span className="absolute h-1.5 w-full top-0 left-0 bg-linear-to-r from-[#6550a2] to-[#e6adc7]"></span>
             <div>
               <FaBullhorn className="text-[#0d6efd] text-5xl mb-2" />
-              <h3 className="font-bold text-lg text-gray-600 mb-5">Awareness Generation</h3>
+              <h3 className="font-bold text-lg text-gray-600 mb-5">
+                Awareness Generation
+              </h3>
               <u className="text-gray-500 leading-7 text-lg font-medium">
                 <li>Nukkad Natak (street plays) in each block.</li>
                 <li>IEC materials & posters in CHCs, DHs, medical colleges.</li>
@@ -496,7 +504,9 @@ function App() {
             <span className="absolute h-1.5 w-full top-0 left-0 bg-linear-to-r from-[#109b8f] to-[#24c384]"></span>
             <div>
               <FaVideo className="text-black text-5xl mb-2" />
-              <h3 className="font-bold text-lg text-gray-600 mb-5">Digital Outreach</h3>
+              <h3 className="font-bold text-lg text-gray-600 mb-5">
+                Digital Outreach
+              </h3>
               <p className="text-gray-500 leading-7 text-lg font-medium">
                 Dissemination of animated videos and e-comics on snakebite
                 awareness across community platforms.
@@ -507,7 +517,9 @@ function App() {
             <span className="absolute h-1.5 w-full top-0 left-0 bg-linear-to-r from-[#654fa3] to-[#e8acc7]"></span>
             <div>
               <FaKitMedical className="text-[#0dcaf0] text-5xl mb-2" />
-              <h3 className="font-bold text-lg text-gray-600 mb-5">Snakebite Kits Provision</h3>
+              <h3 className="font-bold text-lg text-gray-600 mb-5">
+                Snakebite Kits Provision
+              </h3>
               <p className="text-gray-500 leading-7 text-lg font-medium">
                 Distribute first-aid kits (gauze swabs, gloves, pressure
                 bandages, splint, management & CPR cards) to ASHAs and 2 kits
@@ -515,6 +527,68 @@ function App() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Objective Sections */}
+      <section className="w-full flex items-center justify-center gap-6 px-6 pt-22 pb-12 bg-white">
+        <div className="objective-card shadow-2xl hover:-translate-y-5 transition duration-300">
+          <h2 className="text-[26px] font-bold text-[#4a2d5e] p-3">Findings</h2>
+          <img
+            className="w-full h-80"
+            src="https://demo2.techsseract.com/snakebite/webassets/images/Snakebite_project_canva/cho%201.png"
+            alt=""
+          />
+          <h3 className="text-[22px] font-bold text-[#4a2d5e] p-3 -mb-3">
+            Community Health Officers (CHOs)
+          </h3>
+          <p className="text-sm text-gray-800 leading-7 p-3">
+            A noteworthy observation was the strong advocacy for modern medical
+            interventions by Accredited Social Health Activists workers.
+          </p>
+          <button className="border border-purple-700 bg-purple-200 text-purple-900 font-bold hover:text-white hover:bg-purple-900 hover:ease-in transition duration-150 cursor-pointer px-5 py-2.5 rounded-full mb-4">
+            Explore
+          </button>
+        </div>
+        <div className="objective-card shadow-2xl hover:-translate-y-5 transition duration-300">
+          <h2 className="text-[26px] font-bold text-[#4a2d5e] p-3">
+            Success Stories
+          </h2>
+          <img
+            className="w-full h-80"
+            src="https://demo2.techsseract.com/snakebite/webassets/images/Snakebite_project_canva/Survivers1.png"
+            alt=""
+          />
+          <h3 className="text-[22px] font-bold text-[#4a2d5e] p-3 -mb-3">
+            Touching experiences from our visits
+          </h3>
+          <p className="text-sm text-gray-800 leading-7 p-3">
+            These families’ experiences highlighted the power of community
+            education in promoting healthcare awareness.
+          </p>
+          <button className="border border-purple-700 bg-purple-200 text-purple-900 font-bold hover:text-white hover:bg-purple-900 hover:ease-in transition duration-150 cursor-pointer px-5 py-2.5 rounded-full mb-4">
+            Explore
+          </button>
+        </div>
+        <div className="objective-card shadow-2xl hover:-translate-y-5 transition duration-300">
+          <h2 className="text-[26px] font-bold text-[#4a2d5e] p-3">
+            Faiths and Beliefs
+          </h2>
+          <img
+            className="w-full h-80"
+            src="https://demo2.techsseract.com/snakebite/webassets/images/Snakebite_project_canva/people.png"
+            alt=""
+          />
+          <h3 className="text-[22px] font-bold text-[#4a2d5e] p-3 -mb-3">
+            Delving into the faiths and beliefs of people
+          </h3>
+          <p className="text-sm text-gray-800 leading-7 p-3">
+            Our visit to the Amawa Sati Mayi Mandir was enlightening in many
+            ways.We dedicated to temple-related items used in worship.
+          </p>
+          <button className="border border-purple-700 bg-purple-200 text-purple-900 font-bold hover:text-white hover:bg-purple-900 hover:ease-in transition duration-150 cursor-pointer px-5 py-2.5 rounded-full mb-4">
+            Explore
+          </button>
         </div>
       </section>
     </div>
